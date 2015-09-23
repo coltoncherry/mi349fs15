@@ -1,0 +1,29 @@
+body {
+	background: #a8a8a8;
+}
+
+article{
+	background: #775fff;
+	border: solid 5px;
+	margin: 1.5em auto;
+	width: 750px;
+	padding-left: 25px;
+}
+
+h1{
+	font-size: 36px;
+	color: #77aa00;
+	text-align: center;
+}
+
+h2{
+	color: #83cc00;
+}
+
+img{
+	display: block;
+	height: 400px;
+	border: solid 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
