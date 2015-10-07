@@ -1,0 +1,55 @@
+body {
+  background: #ccc;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  background: #fff;
+  border-top: 10px solid #424242;
+  border-bottom: 10px solid #424242;
+}
+
+.top{
+	background: red;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 450px;
+	padding-top: 0px;
+}
+
+.desc{
+	padding-top: 25px;
+	width: 660px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+h2{
+	text-align: center;
+}
+.personas{
+	height: 350px;
+	background: #f1f1f1;
+}
+
+ul li{
+	display: inline-block;
+	width: 200px;
+}
+
+a:link{
+	color: red;
+	text-decoration: none;
+}
+
+a:visited{
+	color: grey;
+}
+
+a:hover{
+	color: #000;
+}
+

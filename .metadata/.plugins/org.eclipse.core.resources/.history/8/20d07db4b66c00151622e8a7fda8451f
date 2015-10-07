@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+
+		<title>Final Project One Pager</title>
+		<meta name="description" content="">
+		<meta name="author" content="Colton">
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+	</head>
+
+	<body>
+		<div class="container">
+		<div class="top">
+		<h1>3d Art Portfolio</h1>
+		<p>My final project will be a website to post my 3d art portfolio.</p>
+		</div>		
+		<p class="desc">I plan on making a site which will house all of the 3d art I have done and have the art separated by character and prop art.  I will also include an about me page and an interactive contact me page.  I will also have a section for art commissions and for other art and overall portfolio pieces.</p>
+		
+		<h2>Personas</h2>
+		<ul class="personas">
+			<li><p><img src="images/jerrypersona.png" alt="Jerry Persona pic"/></p></li>
+			<li><p><img src="images/bookpersona.jpg" alt="Frank Persona pic"/></p></li>
+			<li><p><img src="images/hrpersona.jpg" alt="Andrea Persona pic"/></p></li>
+			
+			<li><h3>Jerry the Artist</h3></li>
+			<li><h3>Frank the Teacher</h3></li>
+			<li><h3>Andrea the HR rep</h3></li>
+			
+			<li><p>3d Artist looking for inspiration.</p></li>
+			<li><p>Teacher of 3d Art looking for examples to use in his classes.</p></li>
+			<li><p>Human Resources representative at a game studio.</p></li>
+		</ul>
+		
+		<h2>Comps</h2>
+		<ul class="comps">
+			<li><p><a href="http://www.artstation.com">ArtStation</a></p></li>
+			<li><p><a href="http://yaron-levi.squarespace.com/">Yaron Levi</a></p></li>
+			<li><p><a href="http://ikomnen.weebly.com/">Ivan Komnenovic</a></p></li>
+		</ul>
+		</div>
+		<p><a href="3dartportfoliosite.pdf">Pdf outline</a></p>
+	</body>
+</html>
