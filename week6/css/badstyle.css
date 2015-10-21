@@ -1,0 +1,35 @@
+body {
+  background: #fb8cd3;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+  border-top: 10px solid red;
+  background: yellow;
+  height: 1000px;
+}
+
+
+ul{
+	padding: 0;
+	height: 150px;
+}
+
+ul li{
+	display: inline-block;
+	padding 10px;
+	width: 210px
+}
+
+ul li:nth-child(2n+1){
+	background: blue;
+	color: green;
+}
+
+ul li:nth-child(2n+2){
+	background: purple;
+	color: yellow;
+}
