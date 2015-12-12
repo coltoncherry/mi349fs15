@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<meta name="description" content="">
+		<meta name="author" content="Colton">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<title>Colton Cherry 3d Art</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="css/simple-slideshow-styles.css" media="screen"/>
+    </head>
+    <body>
+    	<div class="headerwrapper">
+    	<div class="header">
+    	<h1 class="logo"><img src="img/logo.png" alt="Logo" id="logo" /></h1>
+    	<nav>
+    	<ul>
+    		<li><a href="index.html"><span>Home</span></a></li>
+    		<li><a href="about.html"><span>About Me</span></a></li>
+    		<li><a href="art.html"><span>3D Art</span></a>
+    			<ul class="dropdown">
+    				<li><a href="art.html#info"><span>Infographic</span></a></li>
+    				<li><a href="art.html#sandskiff"><span>Sandskiff</span></a></li>
+    				<li><a href="art.html#merkava""><span>Merkava Mk IV</span></a></li>
+    			</ul>
+    		</li>
+    		<li><a href="contact.html"><span>Contact Me</span></a></li>
+    	</ul>
+    	</nav>
+    	</div>
+    	<p class="line"><img src="img/line.png" alt="Line" class="line" />
+    	</div>
+    	<div class="bw">
+    	
+    	    <div class="bss-slides slideshow">
+        		<figure>
+            		<p class="slideimg"><img src="img/skiffrender.png" width="95%" /></p>
+        		</figure>
+        		
+        		<figure>
+            		<p class="slideimg"><img src="img/progress12_10_15_04.png" width="95%" /></p>
+        		</figure>
+        		
+    		</div>
+    		
+    		<footer>Copyright Colton Cherry</footer>
+    	</div>  
+    	
+    	<script src="js/hammer.min.js"></script><!-- for swipe support on touch interfaces -->
+		<script src="js/better-simple-slideshow.min.js"></script>
+		<script>
+    		var opts = {
+    			auto : {
+        			speed : 3500, 
+        			pauseOnHover : true
+    			},
+    			fullScreen : false, 
+    			swipe : true
+			};
+			makeBSS('.slideshow', opts);
+		</script>
+    </body>
+</html>
